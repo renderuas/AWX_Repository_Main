@@ -1,0 +1,6 @@
+---
+# tasks file for copy_file
+- name: copiando un fichero
+  copy:
+    src: /etc/hosts
+    dest: /tmp/{{ nombre_fichero }}
